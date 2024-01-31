@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/NavbarNavbar';
+import Navbar from './components/Navbar';
 import HamburgerMenu from './components/HamburgerMenu';
 
 const App = () => {
