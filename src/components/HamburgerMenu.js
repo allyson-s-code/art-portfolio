@@ -1,17 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-const HamburgerMenu = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const handleToggle = () => {
-    setIsOpen(!isOpen);
-  };
-
+const HamburgerMenu = (props) => {
+  
   return (
-    <div className={`hamburger-menu ${isOpen ? 'open' : ''}`} onClick={handleToggle}>
+    <button className={`hamburger-menu ${props.isOpen ? 'open' : ''}`} onClick={props.handleClick}  aria-label="menu"
+    aria-expanded={props.isOpen}>
       <div className="bar"></div>
       <div className="bar"></div>
-    </div>
+    </button>
   );
 };
 

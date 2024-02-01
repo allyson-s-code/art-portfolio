@@ -1,17 +1,22 @@
-// src/components/Navbar.js
-import React from 'react';
+import React, { useState } from 'react';
 import HamburgerMenu from './HamburgerMenu';
 import { FaInstagram } from "react-icons/fa";
 
 
 
 const Navbar = () => {
-    
+    const [isOpen, setIsOpen] = useState(false);
 
-  return (
+    const handleToggle = () => {
+        setIsOpen(!isOpen);
+      };
+      
+
+    return (
+    
     <nav>
       <div className="site-title">Allyson Smith</div>
-      <div className="nav-links">
+      <div className={`nav-links ${isOpen ? 'show' : ''}`}>
         <a href="#work">Work</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
@@ -19,7 +24,7 @@ const Navbar = () => {
         <FaInstagram />
         </a>
       </div>
-      < HamburgerMenu />
+      < HamburgerMenu handleClick={handleToggle} isOpen={isOpen}/>
     </nav>
   );
 };
