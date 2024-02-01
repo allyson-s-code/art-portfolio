@@ -1,17 +1,22 @@
 // src/components/Navbar.js
 import React from 'react';
 import HamburgerMenu from './HamburgerMenu';
+import { FaInstagram } from "react-icons/fa";
+
+
 
 const Navbar = () => {
+    
+
   return (
     <nav>
-      <div className="name">Allyson Smith</div>
+      <div className="site-title">Allyson Smith</div>
       <div className="nav-links">
         <a href="#work">Work</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
         <a href="https://www.instagram.com/allysonsmithstudio">
-          <img src="path/to/instagram-icon.png" alt="Instagram" />
+        <FaInstagram />
         </a>
       </div>
       < HamburgerMenu />

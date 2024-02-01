@@ -25,6 +25,8 @@ nav {
 
 .name {
   font-size: calc((var(--mobile-site-title-font-font-size-value) - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
+  font-size: 15px;
+  letter-spacing: .2rem;
 }
 
 .nav-links {
@@ -76,7 +78,7 @@ nav {
   .name{
     font-size: calc((var(--site-title-font-font-size-value) - 1) * 1.2vw + 1rem);
   }
-  
+
   .nav-links {
     display: flex;
     flex-direction: row;
