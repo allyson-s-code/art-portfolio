@@ -11,7 +11,6 @@ const HamburgerMenu = () => {
     <div className={`hamburger-menu ${isOpen ? 'open' : ''}`} onClick={handleToggle}>
       <div className="bar"></div>
       <div className="bar"></div>
-      <div className="bar"></div>
     </div>
   );
 };

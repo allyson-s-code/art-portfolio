@@ -1,10 +1,11 @@
 // src/components/Navbar.js
 import React from 'react';
+import HamburgerMenu from './HamburgerMenu';
 
 const Navbar = () => {
   return (
     <nav>
-      <div className="brand">Allyson Smith</div>
+      <div className="name">Allyson Smith</div>
       <div className="nav-links">
         <a href="#work">Work</a>
         <a href="#about">About</a>
@@ -13,6 +14,7 @@ const Navbar = () => {
           <img src="path/to/instagram-icon.png" alt="Instagram" />
         </a>
       </div>
+      < HamburgerMenu />
     </nav>
   );
 };

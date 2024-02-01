@@ -1,12 +1,11 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import HamburgerMenu from './components/HamburgerMenu';
+import './App.css';
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <HamburgerMenu />
       {/* Add Cloudinary image component here */}
     </div>
   );
