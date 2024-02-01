@@ -20,7 +20,7 @@ const Navbar = () => {
         <a href="#work">Work</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
-        <a href="https://www.instagram.com/allysonsmithstudio">
+        <a href="https://www.instagram.com/allysonsmithstudio" className="insta-icon">
         <FaInstagram />
         </a>
       </div>

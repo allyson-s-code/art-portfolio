@@ -9,6 +9,10 @@
   --main-font-color: #676767;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: 'Karla', sans-serif;
@@ -34,12 +38,29 @@ nav {
 
 .nav-links {
   display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   flex-direction: column;
   justify-content: center;
+  gap: 30px;
   padding: 20px;
   width: 100%;
+  height: 100vh;
   text-align: center;
   font-size: var(--nav-links-mobile-font-size);
+}
+
+.nav-links a {
+  color:gray;
+  text-decoration: none;
+}
+
+.insta-icon {
+  position: absolute;
+  bottom: 25px;
+  align-self: center;
 }
 
 .show {
@@ -78,27 +99,41 @@ nav {
 
 @media (min-width: 769px) {
   nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: baseline;
     padding: 2vw 3vw;
   }
 
   .site-title {
     font-size: var(--site-title-font-size);
+    width: 50%;
   }
 
   .nav-links {
+    width: 50%;
+    position: unset;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 35%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: auto;
+    padding: 0;
   }
   
   .nav-links a {
-    color:gray;
-    text-decoration: none;
     font-size: var(--nav-links-font-size);
   }
+
+  .insta-icon {
+    position: unset;
+    display: flex;
+    align-self: center;
+    padding-top: 1px;
+  }
+
+  
 
   .hamburger-menu {
     display: none;
