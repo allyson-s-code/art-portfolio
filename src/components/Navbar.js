@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import HamburgerMenu from './HamburgerMenu';
 import { FaInstagram } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 
@@ -15,15 +16,23 @@ const Navbar = () => {
     return (
     
     <nav>
-      <div className="site-title">Allyson Smith</div>
-      <div className={`nav-links ${isOpen ? 'show' : ''}`}>
-        <a href="#work">Work</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <a href="https://www.instagram.com/allysonsmithstudio" className="insta-icon">
-        <FaInstagram />
-        </a>
-      </div>
+      <Link to="/" className="site-title">Allyson Smith</Link>
+      <ul className={`nav-links ${isOpen ? 'show' : ''}`}>
+        <li>
+            <Link to="/">Home</Link>
+        </li>
+        <li>
+            <Link to="/work">Work</Link>
+        </li>
+        <li>
+            <Link to="/about">About</Link>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/allysonsmithstudio" className="insta-icon">
+                <FaInstagram />
+            </a>
+        </li>
+      </ul>
       < HamburgerMenu handleClick={handleToggle} isOpen={isOpen}/>
     </nav>
   );
