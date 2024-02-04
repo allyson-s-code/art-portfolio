@@ -10,7 +10,7 @@ import {fill} from "@cloudinary/url-gen/actions/resize";
   
     const myImage = cld.image('allysonsmith/art/Purple-ltst-2024'); 
     // Resize to 250 x 250 pixels using the 'fill' crop mode.
-    myImage.resize(fill().width(1200));
+    myImage.resize(fill().width(800));
 
    return (
      <div className="main">
