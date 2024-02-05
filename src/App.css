@@ -121,8 +121,13 @@ nav {
 }
 
 /* Footer */
+.footer {
+  text-align: center;
+}
+
 .footer p {
   font-size: .875rem;
+  
 }
 
 /* Home Page */
