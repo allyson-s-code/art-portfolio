@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "title": "untitled",
+        "medium": "acrylic on raw canvas, stitched",
+        "dimensions": "16\" x 20\"",
+        "date": "2024",
+        "url": "https://asset.cloudinary.com/smith-studio/37b2dd92b0982ff81cda464caaf9b7ef",
+        "description": "Colorful abstract painting with two purple-stained canvas rectangles stacked and stitched on top"
+    },
+    {
+        "id": "2",
+        "title": "untitled",
+        "medium": "acrylic on raw canvas, stitched",
+        "dimensions": "16\" x 20\"",
+        "date": "2024",
+        "url": "https://asset.cloudinary.com/smith-studio/33b2f2eb7af8d3d1f2c2ac29bbd8e0df",
+        "description": "Dark blue and green abstract painting with two yellow and peach-stained canvas rectangles stacked and stitched on top"
+    },
+    {
+        "id": "3",
+        "title": "untitled",
+        "medium": "acrylic on raw canvas, felt, stitched, woven",
+        "dimensions": "10\" x 12\"",
+        "date": "2024",
+        "url": "https://asset.cloudinary.com/smith-studio/98d6193047e78b773e8c970cf106eccf",
+        "description": "Woven canvas abstract painting in soft gradients with two small rectangles of red and bright pink"
+    },
+    {
+        "id": "4",
+        "title": "untitled",
+        "medium": "acrylic on raw canvas, felt, stitched, woven",
+        "dimensions": "10\" x 11\"",
+        "date": "2024",
+        "url": "https://asset.cloudinary.com/smith-studio/84b3b47699d322093681c05f583d06e1",
+        "description": "Woven canvas abstract painting in soft blue-violet gradients with two small rectangles of golden yellow and bright blue"
+    },
+    {
+        "id": "5",
+        "title": "untitled",
+        "medium": "acrylic on raw canvas, felt, stitched, woven",
+        "dimensions": "10\" x 12\"",
+        "date": "2023",
+        "url": "https://asset.cloudinary.com/smith-studio/142f665ae665465a1862839955f383f3",
+        "description": "Woven canvas abstract painting in blue and turquoise woven with bright pink and blue felt strips"
+    },
+    {
+        "id": "6",
+        "title": "untitled",
+        "medium": "acrylic on raw canvas, stitched",
+        "dimensions": "16\" x 20\"",
+        "date": "2023",
+        "url": "https://asset.cloudinary.com/smith-studio/71367126caf44b7e2fbdd1c625ea5fd6",
+        "description": "Light, spotted green, pink, and blue abstract painting with arch-shaped canvas cutouts stitched on and a black strip of felt attached in a zig-zag pattern to the left side"
+    },
+    {
+        "id": "7",
+        "title": "untitled",
+        "medium": "acrylic on raw canvas, felt, stitched, woven",
+        "dimensions": "12\" x 16\"",
+        "date": "2023",
+        "url": "https://asset.cloudinary.com/smith-studio/46777e3fe7e47be70a109efa5c2d6a09",
+        "description": "Abstract painting on canvas with yellow and green gradient, strips of canvas and felt woven through, and cut-out sun and moon shapes in yellow and black stitched on top"
+    },
+    {
+        "id": "8",
+        "title": "untitled",
+        "medium": "acrylic on raw canvas, felt, stitched, woven",
+        "dimensions": "12\" x 16\"",
+        "date": "2023",
+        "url": "https://asset.cloudinary.com/smith-studio/bee37c290b45b86d274ffab0bdb255c3",
+        "description": "A blue acrylic, abstract painting with a very dark blue rectangle of felt centered and cutout blue and orange moon shapes stitched on top"
+     }
+]
