@@ -5,7 +5,7 @@
         "medium": "acrylic on raw canvas, stitched",
         "dimensions": "16\" x 20\"",
         "date": "2024",
-        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1706995820/allysonsmith/art/Purple-ltst-2024.jpg",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1707424395/allysonsmith/800w/Purple-ltst-800w_jpmcwk.jpg",
         "description": "Colorful abstract painting with two purple-stained canvas rectangles stacked and stitched on top"
     },
     {
@@ -14,7 +14,7 @@
         "medium": "acrylic on raw canvas, stitched",
         "dimensions": "16\" x 20\"",
         "date": "2024",
-        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1706992475/allysonsmith/art/dark-green-2024.jpg",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1707424389/allysonsmith/800w/Green-lt-800w_af9fkf.jpg",
         "description": "Dark blue and green abstract painting with two yellow and peach-stained canvas rectangles stacked and stitched on top"
     },
     {
@@ -32,7 +32,7 @@
         "medium": "acrylic on raw canvas, felt, stitched, woven",
         "dimensions": "10\" x 11\"",
         "date": "2024",
-        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1706992469/allysonsmith/art/blue-weaving-2024.jpg",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1707424384/allysonsmith/800w/Blue-Weave-lt-800w_o8j2jg.jpg",
         "description": "Woven canvas abstract painting in soft blue-violet gradients with two small rectangles of golden yellow and bright blue"
     },
     {
@@ -41,7 +41,7 @@
         "medium": "acrylic on raw canvas, felt, stitched, woven",
         "dimensions": "10\" x 12\"",
         "date": "2023",
-        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1706992467/allysonsmith/art/electric-weaving-2024.jpg",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1707424386/allysonsmith/800w/Electric-Weaving-lt-800w_ggeszi.jpg",
         "description": "Woven canvas abstract painting in blue and turquoise woven with bright pink and blue felt strips"
     },
     {
@@ -50,7 +50,7 @@
         "medium": "acrylic on raw canvas, stitched",
         "dimensions": "16\" x 20\"",
         "date": "2023",
-        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1706992469/allysonsmith/art/stepping-stones-2023.jpg",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1707424543/allysonsmith/800w/Stepping-stones-800w_rag7t2.jpg",
         "description": "Light, spotted green, pink, and blue abstract painting with arch-shaped canvas cutouts stitched on and a black strip of felt attached in a zig-zag pattern to the left side"
     },
     {
@@ -59,7 +59,7 @@
         "medium": "acrylic on raw canvas, felt, stitched, woven",
         "dimensions": "12\" x 16\"",
         "date": "2023",
-        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1706992475/allysonsmith/art/yellow-green-weaving-2024.jpg",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1707394538/allysonsmith/800w/Sun-Moon-Green-Weaving-original-800w_lmnf0r.jpg",
         "description": "Abstract painting on canvas with yellow and green gradient, strips of canvas and felt woven through, and cut-out sun and moon shapes in yellow and black stitched on top"
     },
     {
@@ -68,9 +68,17 @@
         "medium": "acrylic on raw canvas, felt, stitched, woven",
         "dimensions": "12\" x 16\"",
         "date": "2023",
-        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1706992477/allysonsmith/art/moon-moon-2024.jpg",
-        "description": "A blue acrylic, abstract painting with a very dark blue rectangle of felt centered and cutout blue and orange moon shapes stitched on top"
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1707424392/allysonsmith/800w/Moon-frame-lt-800w_npuemy.jpg",
+        "description": "A blue acrylic, abstract painting with a dark blue rectangle of felt centered and cutout blue and orange moon shapes stitched on top"
+     },
+     {
+        "id": "9",
+        "title": "untitled",
+        "medium": "acrylic on raw canvas, stitched, woven",
+        "dimensions": "20\" x 24\"",
+        "date": "2023",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1707425321/allysonsmith/800w/Blue-Weave-Passing-800w_k9dmkc.jpg",
+        "description": "A painting with a blue and cream woven checkerboard background with two drawn eyes on top and small cutout red shape in upper right and lower left corners"
      }
-     
-     
+      
 ]
