@@ -8,7 +8,7 @@ import { SlArrowLeft } from "react-icons/sl";
 
 
 function PrevArrow(props){
-    const { className, style, onClick } = props;
+    const { className, onClick } = props;
     return(
       <button onClick={onClick} className={`arrow ${className}`}  >
         <SlArrowLeft className="arrows" />
@@ -17,7 +17,7 @@ function PrevArrow(props){
     }
 
 function NextArrow(props) {
-    const { className, style, onClick } = props;
+    const { className, onClick } = props;
     return(
       <button onClick={onClick} className={`arrow ${className}`} >
         <SlArrowRight className="arrows" />
