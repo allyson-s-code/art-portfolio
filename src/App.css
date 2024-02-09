@@ -145,6 +145,7 @@ nav {
   width: 90%;
   max-width: 700px;
   height: auto;
+  margin-bottom: 40px;
 }
 
 
@@ -198,11 +199,25 @@ nav {
   font-style: italic;
 }
 
+/*  About  */
+.about-info {
+  width: 85%;
+  max-width: 1000px;
+  text-align: center;
+  margin-top: -80px;
+}
+
+.about-info p {
+  line-height: 2;
+}
+
+
 @media (min-width: 600px) {
+  
   /* Gallery  */
 
   .slick-slide {
-    padding: 40px;
+    padding: 0 40px;
   }
 }
 
@@ -257,7 +272,7 @@ nav {
   /* Gallery  */
 
   .slick-slide {
-    padding: 60px;
+    padding: 0 60px;
   }
 
 
