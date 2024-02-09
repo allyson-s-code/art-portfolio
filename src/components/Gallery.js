@@ -3,8 +3,6 @@ import data from '../Data.json';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-/*import { FaChevronRight } from "react-icons/fa";
-import { FaChevronLeft } from "react-icons/fa";*/
 import { SlArrowRight } from "react-icons/sl";
 import { SlArrowLeft } from "react-icons/sl";
 
@@ -40,30 +38,7 @@ const Gallery = () => {
         centerPadding: '0px',
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />,
-        className: 'arrows',
-        responsive: [
-            {
-              breakpoint: 1024,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
-            },
-            {
-              breakpoint: 600,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
-            },
-            {
-              breakpoint: 480,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-              }
-            }
-          ]
+        className: 'arrows'
       };
 
       
