@@ -3,17 +3,44 @@ import data from '../Data.json';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+/*import { FaChevronRight } from "react-icons/fa";
+import { FaChevronLeft } from "react-icons/fa";*/
+import { SlArrowRight } from "react-icons/sl";
+import { SlArrowLeft } from "react-icons/sl";
 
+
+function PrevArrow(props){
+    const { className, style, onClick } = props;
+    return(
+      <button onClick={onClick} className={`arrow ${className}`}  >
+        <SlArrowLeft className="arrows" />
+      </button>
+    )
+    }
+
+function NextArrow(props) {
+    const { className, style, onClick } = props;
+    return(
+      <button onClick={onClick} className={`arrow ${className}`} >
+        <SlArrowRight className="arrows" />
+      </button>
+    )
+  }
 
 const Gallery = () => {
     const settings = {
         dots: false,
-        infinite: false,
+        infinite: true,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
+        swipe: true,
+        arrows: true,
         centerMode: true,
-        centerPadding: "0px",
+        centerPadding: '0px',
+        nextArrow: <NextArrow />,
+        prevArrow: <PrevArrow />,
+        className: 'arrows',
         responsive: [
             {
               breakpoint: 1024,
@@ -38,6 +65,8 @@ const Gallery = () => {
             }
           ]
       };
+
+      
       
       return (
         <div className="slider-wrapper">
