@@ -28,7 +28,7 @@ const Navbar = () => {
             <Link to="/about">About</Link>
         </li>
         <li>
-            <a href="https://www.instagram.com/allysonsmithstudio" className="insta-icon">
+            <a href="https://www.instagram.com/allysonsmithstudio" target="_blank" rel="noreferrer" className="insta-icon">
                 <FaInstagram />
             </a>
         </li>

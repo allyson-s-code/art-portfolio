@@ -80,9 +80,12 @@ nav {
 
 .nav-links a {
   text-decoration: none;
+  padding-bottom: 2px;
+  border-bottom: 0 solid var(--main-font-color);
+  transition: all .2s ease-in-out;
 }
 
-.insta-icon {
+a.insta-icon {
   position: absolute;
   bottom: 25px;
   align-self: center;
@@ -261,6 +264,7 @@ a.insta-icon:hover {
   .site-title {
     font-size: var(--site-title-font-size);
     width: 50%;
+    padding-bottom: 3px;
   }
 
   .nav-links {
@@ -277,13 +281,12 @@ a.insta-icon:hover {
 
   .nav-links a {
     font-size: var(--nav-links-font-size);
-    transition: all .2s ease-in-out;
   }
 
-  .insta-icon {
+  a.insta-icon {
     position: unset;
     display: flex;
-    padding-bottom: 5px;
+    padding-bottom: 6px;
   }
 
   .hamburger-menu {
