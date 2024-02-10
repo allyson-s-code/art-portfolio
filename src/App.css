@@ -79,7 +79,6 @@ nav {
 }
 
 .nav-links a {
-  color:gray;
   text-decoration: none;
 }
 
@@ -87,6 +86,15 @@ nav {
   position: absolute;
   bottom: 25px;
   align-self: center;
+}
+
+.nav-links a:hover,
+.nav-links a:active {
+  border-bottom: 1px solid var(--main-font-color);
+}
+
+a.insta-icon:hover {
+  border-bottom: none;
 }
 
 .show {
@@ -175,6 +183,15 @@ nav {
 .arrows {
   font-size: 1rem;
   color: gray;
+  transition: all .2s ease-in-out;
+}
+
+.arrow {
+  transform: scale(1);
+}
+
+.arrow:hover {
+  transform: scale(1.2);
 }
 
 .slide {
@@ -260,6 +277,7 @@ nav {
 
   .nav-links a {
     font-size: var(--nav-links-font-size);
+    transition: all .2s ease-in-out;
   }
 
   .insta-icon {
