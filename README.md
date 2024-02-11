@@ -41,6 +41,7 @@ The goals:
 ### Links
 
 - Live Site URL: [https://allysonsmithstudio.com/](https://allysonsmithstudio.com)
+- Live Site URL: [https://allyson-smith-studio.netlify.app](https://allyson-smith-studio.netlify.app)
 
 ## My process
 
@@ -133,6 +134,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Author
 
-- Website - [Allyson Smith](https://smithstudio.dev)
-- Website - [Allyson Smith](https://allysonsmithstudio.com)
+- Dev Portfolio - [Allyson Smith](https://smithstudio.dev)
 - Github - [@allyson-s-code](https://github.com/allyson-s-code)
