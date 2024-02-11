@@ -88,7 +88,8 @@ nav {
 a.insta-icon {
   position: absolute;
   bottom: 25px;
-  align-self: center;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .nav-links a:hover,
@@ -115,6 +116,7 @@ a.insta-icon:hover {
   height: 35px;
   border: none;
   background-color: white;
+  padding: 0;
 }
 
 .bar {
@@ -257,7 +259,7 @@ a.insta-icon:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     padding: 2vw 3vw;
   }
 
@@ -286,7 +288,8 @@ a.insta-icon:hover {
   a.insta-icon {
     position: unset;
     display: flex;
-    padding-bottom: 6px;
+    padding-bottom: 5px;
+    transform: translate(0, 0);
   }
 
   .hamburger-menu {
