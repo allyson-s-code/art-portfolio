@@ -268,12 +268,12 @@ a.insta-icon:hover {
 
 @media (min-width: 769px) {
   nav {
-    max-width: 1200px;
+    max-width: 1400px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2vw 3vw;
+    padding: 3vw 2vw;
   }
 
   .site-title {
@@ -320,6 +320,9 @@ a.insta-icon:hover {
   }
 
   /* Gallery  */
+  .slider-wrapper {
+    margin-bottom: 60px;
+  }
 
   .slick-slide {
     padding: 0 60px;
