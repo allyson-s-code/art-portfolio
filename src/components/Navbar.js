@@ -11,7 +11,17 @@ const Navbar = () => {
     const handleToggle = () => {
         setIsOpen(!isOpen);
       };
-      
+    
+      //when links are clicked I want to remove show class on nav because otherwise the menu doesn't close if link to same page is clicked
+    const links = document.querySelectorAll(".nav-links a")
+    const navBar = document.querySelector(".nav-links")
+
+    links.forEach(l => {
+        l.addEventListener('click', () => {
+            navBar.classList.remove('show');
+            setIsOpen(false);
+        })
+    })
 
     return (
     
