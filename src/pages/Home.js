@@ -1,6 +1,4 @@
-import React from 'react'
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import React from 'react';
 import {Cloudinary} from "@cloudinary/url-gen";
 import {AdvancedImage} from '@cloudinary/react';
 import {fill} from "@cloudinary/url-gen/actions/resize";
@@ -14,9 +12,7 @@ import {fill} from "@cloudinary/url-gen/actions/resize";
 
    return (
      <div className="main">
-         <Navbar />
          <AdvancedImage cldImg={myImage} className="image hero-image"/>
-         <Footer />
      </div>
    )
  }
