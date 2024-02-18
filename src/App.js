@@ -1,4 +1,4 @@
-import { React} from 'react';
+import { React, useState, useEffect } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import Work from './pages/Work';
@@ -10,23 +10,51 @@ import './App.css';
 
 const App = () => {
   
-const location = useLocation();
+
 
   return (
     <div className="app">
       <Navbar />
 
-      <Routes location={location} key={location.path}>
-         <Route path='/' element={<Home/>} />
-         <Route path='/work' element={<Work/>} />
-         <Route path='/about' element={<About/>} />
-       </Routes>
+      <Content />
       
-       <Footer />
+      <Footer />
     </div>
 
   );
 };
+
+
+//fade out/fade in transition between pages
+function Content() {
+  const location = useLocation();
+
+  const [displayLocation, setDisplayLocation] = useState(location);
+  const [transitionStage, setTransistionStage] = useState("fadeIn");
+
+  useEffect(() => {
+    if (location !== displayLocation) setTransistionStage("fadeOut");
+  }, [location, displayLocation]);
+
+  return (
+    <div
+      className={`content ${transitionStage} `}
+      onAnimationEnd={() => {
+        if (transitionStage === "fadeOut") {
+          setTransistionStage("fadeIn");
+          setDisplayLocation(location);
+        }
+      }}
+    >
+      <Routes location={displayLocation} key={location.pathname}>
+        <Route path="/" element={<Home />} />
+        <Route path="/work" element={<Work />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </div>
+  );
+}
+
 
 export default App;
 
