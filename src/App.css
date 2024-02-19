@@ -47,16 +47,17 @@ body {
   align-items: center;
   justify-content: center;
   opacity: 1;
+  z-index: 1;
 }
 
 
 /* animated page transitions for soft fade in and out */
 .fadeIn {
-  animation: 0.5s fadeIn forwards;
+  animation: .5s fadeIn ease-in forwards;
 }
 
 .fadeOut {
-  animation: 0.5s fadeOut forwards;
+  animation: .5s fadeOut ease-in forwards;
 }
 
 @keyframes fadeIn {
@@ -110,8 +111,9 @@ nav {
 }
 
 .nav-links {
-  display: none;
   position: absolute;
+  display: flex;
+  opacity: 0;
   top: 0;
   left: 0;
   right: 0;
@@ -126,17 +128,59 @@ nav {
   font-size: var(--nav-links-mobile-font-size);
 }
 
-.show {
-  display: unset;
-  display: flex;
+/*.show {
+  animation: .6s showMenu ease-in forwards;
 }
+
+.hide {
+  animation: .6s hideMenu ease-in forwards;
+}
+
+@keyframes showMenu {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+
+  15% {
+    opacity: 0;
+    height: 100vh;
+  }
+
+  100% {
+    opacity: 1;
+    height: 100vh;
+  }
+}
+
+@keyframes hideMenu {
+  0% {
+    opacity: 1;
+    height: 100vh;
+  }
+
+  5% {
+    opacity: .7;
+    height: 0;
+  }
+
+  100% {
+    opacity: 0;
+    height: 0;
+  }
+
+  
+}
+*/
+
 
 .nav-links a {
   text-decoration: none;
   padding-bottom: 2px;
   border-bottom: 0 solid var(--main-font-color);
-  transition: all .2s ease-in-out;
+  transition: all .5s ease-in-out;
 }
+
 
 a.insta-icon {
   display: flex;
@@ -160,7 +204,6 @@ a.insta-icon:hover {
 }
 
 
-
 .hamburger-menu {
   display: flex;
   flex-direction: column;
@@ -172,6 +215,7 @@ a.insta-icon:hover {
   border: none;
   background-color: white;
   padding: 0;
+  z-index: 3;
 }
 
 .bar {
@@ -333,11 +377,12 @@ a.insta-icon:hover {
   .nav-links {
     width: 50%;
     position: unset;
+    opacity: 1 !important;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-    height: auto;
+    height: auto !important;
     padding: 0;
   }
   

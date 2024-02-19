@@ -28,24 +28,24 @@ const App = () => {
 //fade out/fade in transition between pages
 function Content() {
   const location = useLocation();
-
   const [displayLocation, setDisplayLocation] = useState(location);
-  const [transitionStage, setTransistionStage] = useState("fadeIn");
+  const [transitionStage, setTransitionStage] = useState('fadeIn');
 
   useEffect(() => {
-    if (location !== displayLocation) setTransistionStage("fadeOut");
+    if (location !== displayLocation) {
+      setTransitionStage('fadeOut');
+    }
   }, [location, displayLocation]);
 
+  const handleTransitionEnd = () => {
+    if (transitionStage === 'fadeOut') {
+      setTransitionStage('fadeIn');
+      setDisplayLocation(location);
+    }
+  };
+
   return (
-    <div
-      className={`content ${transitionStage} `}
-      onAnimationEnd={() => {
-        if (transitionStage === "fadeOut") {
-          setTransistionStage("fadeIn");
-          setDisplayLocation(location);
-        }
-      }}
-    >
+    <div className={`content ${transitionStage}`} onAnimationEnd={handleTransitionEnd}>
       <Routes location={displayLocation} key={location.pathname}>
         <Route path="/" element={<Home />} />
         <Route path="/work" element={<Work />} />
@@ -54,7 +54,6 @@ function Content() {
     </div>
   );
 }
-
 
 export default App;
 
