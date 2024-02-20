@@ -108,6 +108,7 @@ nav {
 .site-title {
   font-size: var(--site-title-mobile-font-size);
   letter-spacing: .2rem;
+  z-index: 2;
 }
 
 .nav-links {
@@ -126,53 +127,12 @@ nav {
   background-color: white;
   text-align: center;
   font-size: var(--nav-links-mobile-font-size);
+  pointer-events: auto;
 }
 
-/*.show {
-  animation: .6s showMenu ease-in forwards;
+.disabled {
+  pointer-events: none;
 }
-
-.hide {
-  animation: .6s hideMenu ease-in forwards;
-}
-
-@keyframes showMenu {
-  0% {
-    opacity: 0;
-    height: 0;
-  }
-
-  15% {
-    opacity: 0;
-    height: 100vh;
-  }
-
-  100% {
-    opacity: 1;
-    height: 100vh;
-  }
-}
-
-@keyframes hideMenu {
-  0% {
-    opacity: 1;
-    height: 100vh;
-  }
-
-  5% {
-    opacity: .7;
-    height: 0;
-  }
-
-  100% {
-    opacity: 0;
-    height: 0;
-  }
-
-  
-}
-*/
-
 
 .nav-links a {
   text-decoration: none;
