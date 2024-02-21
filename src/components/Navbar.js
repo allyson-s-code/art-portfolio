@@ -9,8 +9,11 @@ const Navbar = () => {
 
     //check for screen size and if small screen load nav-links disabled
     useEffect(() => {
+        console.log("Window width:", window.innerWidth);
+        console.log("isOpen:", isOpen);
         if (window.innerWidth < 769 && !isOpen) {
-        setIsDisabled(true);
+            console.log("Condition met: Disabling...");
+            setIsDisabled(true);
         }
     }, []);
 
