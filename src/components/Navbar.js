@@ -8,6 +8,7 @@ const Navbar = () => {
     const [isDisabled, setIsDisabled] = useState(false);
 
     //check for screen size and if small screen load nav-links disabled
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         console.log("Window width:", window.innerWidth);
         console.log("isOpen:", isOpen);
