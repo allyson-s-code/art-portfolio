@@ -22,6 +22,8 @@ const Navbar = () => {
         }, 400)
     };
 
+    //only disable nav links on small screens when menu is closed
+    //on larger screens remove disable class on closed mobile nav so desktop links are clickable
     useEffect(() => {
         const handleResize = () => {
             const largerScreen = window.innerWidth > 769;
