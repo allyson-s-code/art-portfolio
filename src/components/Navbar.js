@@ -7,6 +7,13 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [isDisabled, setIsDisabled] = useState(false);
 
+    //check for screen size and if small screen load nav-links disabled
+    useEffect(() => {
+        if (window.innerWidth < 769 && !isOpen) {
+        setIsDisabled(true);
+        }
+    }, []);
+
     //This is only used by hamburger menu on mobile
     const handleToggle = () => {
         setIsDisabled(!isDisabled);
@@ -48,7 +55,7 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link to="/work" onClick={handleCloseMenu}>Work</Link>
-                </li>
+                </li> 
                 <li>
                     <Link to="/about" onClick={handleCloseMenu}>About</Link>
                 </li>
