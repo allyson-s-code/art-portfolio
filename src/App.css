@@ -50,7 +50,6 @@ body {
   z-index: 1;
 }
 
-
 /* animated page transitions for soft fade in and out */
 .fadeIn {
   animation: .5s fadeIn ease-in forwards;
@@ -94,7 +93,6 @@ li {
   padding: 0;
   margin: 0;
 }
-
 
 nav {
   width: 100%;
@@ -141,7 +139,6 @@ nav {
   transition: all .5s ease-in-out;
 }
 
-
 a.insta-icon {
   display: flex;
   flex-direction: row;
@@ -153,7 +150,6 @@ a.insta-icon svg {
   padding-top: 8px;
 }
 
-
 .nav-links a:hover,
 .nav-links a:active {
   border-bottom: 1px solid var(--main-font-color);
@@ -162,7 +158,6 @@ a.insta-icon svg {
 a.insta-icon:hover {
   border-bottom: none;
 }
-
 
 .hamburger-menu {
   display: flex;
@@ -190,7 +185,6 @@ a.insta-icon:hover {
   transform: rotate(-45deg) translate(-5px, 3.5px);
 }
 
-
 .hamburger-menu.open .bar:nth-child(2) {
   transform: rotate(45deg) translate(-5px, -3.5px);
 }
@@ -202,7 +196,6 @@ a.insta-icon:hover {
 
 .footer p {
   font-size: .875rem;
-  
 }
 
 /* Home Page */
@@ -220,7 +213,6 @@ a.insta-icon:hover {
   height: auto;
   margin-bottom: 40px;
 }
-
 
 .slick-slide {
   width: 100%;
