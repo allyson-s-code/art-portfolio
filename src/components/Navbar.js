@@ -17,7 +17,7 @@ const Navbar = () => {
         }
         // After the first render, set initialRender to false
         setInitialRender(false);
-    }, [isOpen]); 
+    }, []); 
 
     //This is only used by hamburger menu on mobile
     const handleToggle = () => {
