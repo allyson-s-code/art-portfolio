@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useLayoutEffect } from 'react';
 import HamburgerMenu from './HamburgerMenu';
 import { FaInstagram } from "react-icons/fa";
 import { Link } from 'react-router-dom';
@@ -8,15 +8,13 @@ const Navbar = () => {
     const [isDisabled, setIsDisabled] = useState(false);
 
     //check for screen size and if small screen load nav-links disabled
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    useEffect(() => {
-        console.log("Window width:", window.innerWidth);
-        console.log("isOpen:", isOpen);
+    useLayoutEffect(() => {
         if (window.innerWidth < 769 && !isOpen) {
-            console.log("Condition met: Disabling...");
             setIsDisabled(true);
         }
-    }, []);
+    }, []); // Empty dependency array to run once after the first render
 
     //This is only used by hamburger menu on mobile
     const handleToggle = () => {
