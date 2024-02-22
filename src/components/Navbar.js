@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useLayoutEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import HamburgerMenu from './HamburgerMenu';
 import { FaInstagram } from "react-icons/fa";
 import { Link } from 'react-router-dom';
@@ -6,15 +6,18 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [isDisabled, setIsDisabled] = useState(false);
+    const [initialRender, setInitialRender] = useState(true);
 
     //check for screen size and if small screen load nav-links disabled
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    useLayoutEffect(() => {
+    useEffect(() => {
         if (window.innerWidth < 769 && !isOpen) {
             setIsDisabled(true);
         }
-    }, []); // Empty dependency array to run once after the first render
+        // After the first render, set initialRender to false
+        setInitialRender(false);
+    }, [isOpen]); 
 
     //This is only used by hamburger menu on mobile
     const handleToggle = () => {
@@ -51,7 +54,7 @@ const Navbar = () => {
     return (
         <nav>
             <Link to="/" className="site-title">Allyson Smith</Link>
-            <ul className={`nav-links ${isOpen ? 'fadeIn' : 'fadeOut'} ${isDisabled ? 'disabled' : ''}`}>
+            <ul className={`nav-links ${initialRender ? '' : isOpen ? 'fadeIn' : 'fadeOut'} ${isDisabled ? 'disabled' : ''}`}>
                 <li>
                     <Link to="/" onClick={handleCloseMenu}>Home</Link>
                 </li>
