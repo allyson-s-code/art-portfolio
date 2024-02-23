@@ -46,9 +46,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  opacity: 1;
+  opacity: 0;
   z-index: 1;
 }
+
 
 /* animated page transitions for soft fade in and out */
 .fadeIn {
@@ -107,12 +108,13 @@ nav {
   font-size: var(--site-title-mobile-font-size);
   letter-spacing: .2rem;
   z-index: 2;
+  cursor: pointer;
 }
 
 .nav-links {
   position: absolute;
   display: flex;
-  opacity: 0;
+  opacity: 1;
   top: 0;
   left: 0;
   right: 0;
