@@ -3,63 +3,67 @@ import { Link } from 'react-router-dom';
 import { FaInstagram } from "react-icons/fa";
 import HamburgerMenu from './HamburgerMenu';
 
-const Navbar = ({ transitionStage, isOpen, toggleIsOpen, closeMenu }) => {
+const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false);
     const [isDisabled, setIsDisabled] = useState(false);
-    const [initialLoad, setInitialLoad] = useState(true);
+    const [initialRender, setInitialRender] = useState(true);
 
-    // Check for screen size and if small screen load nav-links disabled
+    //check for screen size and if small screen load nav-links disabled
+
     // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         if (window.innerWidth < 769 && !isOpen) {
             setIsDisabled(true);
         }
+        console.log("initial render", initialRender)
+        // After the first render, set initialRender to false
+        setInitialRender(false);
+        console.log("initial render set to false")
+    }, []); 
 
-        if (window.innerWidth < 769 && isOpen) {
-            setIsDisabled(false);
-        }
-        
-        // If it's the initial load and menu is closed, set opacity to 0
-        if (initialLoad) {
-            setInitialLoad(false); // Update initial load status
-        }
-    }, []);
+    //This is only used by hamburger menu on mobile
+    const handleToggle = () => {
+        setIsDisabled(!isDisabled);
+        setIsOpen(!isOpen); 
+    };
 
-    //handle resize to larger screen and allow nav to be clickable
+    const handleCloseMenu = () => {
+        setTimeout(() => {
+            setIsOpen(false);
+            if (window.innerWidth <= 769) {
+                setIsDisabled(true);
+            } // Close menu after fadeOut and disable links only on mobile nav
+        }, 400)
+    };
+
+    //only disable nav links on small screens when menu is closed
+    //when resizing to smaller screen the mobile menu closes 
+    //on larger screens remove disable class on closed mobile nav so desktop links are clickable
     useEffect(() => {
         const handleResize = () => {
             const largerScreen = window.innerWidth > 769;
             if (!isOpen) {
                 setIsDisabled(!largerScreen);
             }
+            if (!largerScreen) {
+                setIsOpen(false);
+                setIsDisabled(true);
+            }
         };
-        console.log("big screen time")
+    
         window.addEventListener("resize", handleResize);
     
         return () => {
             window.removeEventListener("resize", handleResize);
         };
     }, [isOpen]);
+
     
-    // This is only used by hamburger menu on mobile
-    const handleToggle = () => {
-        setIsDisabled(!isDisabled);
-     // Toggle isOpen after animation starts
-        toggleIsOpen();
-    };
-
-    const handleCloseMenu = () => {
-           //only on smaller screens using mobile menu
-            if (window.innerWidth <= 769) {
-                closeMenu();
-                setIsDisabled(true);
-            } // Close menu after fadeOut and disable links only on mobile nav
-    };
-
-
     return (
         <nav>
-            <Link to="/" className="site-title">Allyson Smith</Link>
-            <ul className={`nav-links ${initialLoad ? '' : transitionStage} ${isDisabled ? 'disabled' : ''}`} >
+            <Link to="/" href="/" className="site-title" style={{ cursor: 'pointer' }}>Allyson Smith</Link>
+            <ul className={`nav-links ${initialRender ? '' : isOpen ? 'fadeIn' : 'fadeOut'} ${isDisabled ? 'disabled' : ''}`}>
+            {initialRender && <span>{console.log("Initial render yahoo")}</span>}
                 <li>
                     <Link to="/" onClick={handleCloseMenu}>Home</Link>
                 </li>

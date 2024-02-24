@@ -37,21 +37,21 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  z-index: 1;
 }
 
-.content {
+/*.content {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  opacity: 0;
   z-index: 1;
-}
+}*/
 
 
-/* animated page transitions for soft fade in and out */
+/* animated mobile menu transitions for soft fade in and out */
 .fadeIn {
   animation: .5s fadeIn ease-in forwards;
 }
@@ -90,7 +90,7 @@ ul {
   margin: 0;
 }
 
-li {
+li, h1 {
   padding: 0;
   margin: 0;
 }
@@ -104,10 +104,11 @@ nav {
   z-index: 2;
 }
 
-.site-title {
+a.site-title {
+  width: 100%;
   font-size: var(--site-title-mobile-font-size);
   letter-spacing: .2rem;
-  z-index: 2;
+  height: auto;
   cursor: pointer;
 }
 
@@ -128,6 +129,7 @@ nav {
   text-align: center;
   font-size: var(--nav-links-mobile-font-size);
   pointer-events: auto;
+  z-index: 1;
 }
 
 .disabled {
@@ -139,6 +141,7 @@ nav {
   padding-bottom: 2px;
   border-bottom: 0 solid var(--main-font-color);
   transition: all .5s ease-in-out;
+  cursor: pointer;
 }
 
 a.insta-icon {
@@ -340,7 +343,6 @@ a.insta-icon:hover {
     padding: 0;
   }
   
-
 
   .nav-links a {
     font-size: var(--nav-links-font-size);
