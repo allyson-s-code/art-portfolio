@@ -12,7 +12,7 @@ const Navbar = () => {
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
-        if (window.innerWidth < 769 && !isOpen) {
+        if (window.innerWidth < 769) {
             setIsDisabled(true);
         }
         console.log("initial render", initialRender)
