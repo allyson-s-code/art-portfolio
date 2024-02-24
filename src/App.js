@@ -1,19 +1,21 @@
 import React from 'react';
 import { useLocation, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Work from './pages/Work';
 import About from './pages/About';
 import Footer from './components/Footer';
 import './App.css';
 import { AnimatePresence } from 'framer-motion';
+import MobileNav from './components/MobileNav';
+import DesktopNav from './components/DesktopNav';
 
 
 export default function App() {
   
   return (
     <div className="app">
-      <Navbar />
+      <MobileNav />
+      <DesktopNav />
       <Content />
       <Footer />
     </div>
