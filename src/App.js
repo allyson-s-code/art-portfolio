@@ -1,32 +1,39 @@
-import { React} from 'react';
-import { Route, Routes, useLocation } from 'react-router-dom';
+import React from 'react';
+import { useLocation, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Work from './pages/Work';
 import About from './pages/About';
-import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-
 import './App.css';
+import { AnimatePresence } from 'framer-motion';
+import MobileNav from './components/MobileNav';
+import DesktopNav from './components/DesktopNav';
 
-const App = () => {
+
+export default function App() {
   
-const location = useLocation();
-
   return (
     <div className="app">
-      <Navbar />
-
-      <Routes location={location} key={location.path}>
-         <Route path='/' element={<Home/>} />
-         <Route path='/work' element={<Work/>} />
-         <Route path='/about' element={<About/>} />
-       </Routes>
-      
-       <Footer />
+      <MobileNav />
+      <DesktopNav />
+      <Content />
+      <Footer />
     </div>
-
   );
 };
 
-export default App;
+function Content() {
+  const location = useLocation();
 
+  return (
+
+      <AnimatePresence>
+        <Routes location={location} kay={location.pathname}>
+            <Route path="/" element={<Home />} />
+            <Route path="/work" element={<Work />} />
+            <Route path="/about" element={<About />} />
+        </Routes>
+      </AnimatePresence>
+    
+  );
+}
