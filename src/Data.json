@@ -3,13 +3,31 @@
         "id": "1",
         "title": "untitled",
         "medium": "acrylic on raw canvas, woven, stitched",
+        "dimensions": "16\" x 20\"",
+        "date": "2024",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1714418182/allysonsmith/800w/Eclipse-Orange-800w_fsswms.jpg",
+        "description": "Painting with orange striped background with strips of canvas loosely woven on top. A dark teal rectangle is surrounded by four small red rectangles from background."
+    },
+    {
+        "id": "2",
+        "title": "untitled",
+        "medium": "acrylic on raw canvas, woven, stitched",
+        "dimensions": "16\" x 20\"",
+        "date": "2024",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1714418420/allysonsmith/800w/Eclipse-brighter-800w_yq5ebj.jpg",
+        "description": "Painting with pale purple gradient background with woven strips of canvas spaced to reveal four red rectangles from background and a dark rectangular center"
+    },
+    {
+        "id": "3",
+        "title": "untitled",
+        "medium": "acrylic on raw canvas, woven, stitched",
         "dimensions": "20\" x 24\"",
         "date": "2024",
         "url": "https://res.cloudinary.com/smith-studio/image/upload/v1709499121/allysonsmith/800w/Blue-Yellow-levels-800w_yczv7n.jpg",
         "description": "Painting with heavily brushy blue woven background and yellow and blue stitched washy canvases with vertical seam facing out"
     },
     {
-        "id": "2",
+        "id": "4",
         "title": "untitled",
         "medium": "acrylic on raw canvas, stitched",
         "dimensions": "12\" x 15\"",
@@ -18,7 +36,7 @@
         "description": "Painting with dark blue background and three stitched rectangle canvases in shades of yellow ochre and sienna with two horizontal seam facing out"
     },
     {
-        "id": "3",
+        "id": "5",
         "title": "untitled",
         "medium": "acrylic on raw canvas, woven, stitched",
         "dimensions": "16\" x 20\"",
@@ -27,7 +45,7 @@
         "description": "Painting with dark green, black, and blue background with yellow and red woven strips arranged and stitched on top"
     },
     {
-        "id": "4",
+        "id": "6",
         "title": "untitled",
         "medium": "acrylic on raw canvas, stitched",
         "dimensions": "16\" x 20\"",
@@ -36,7 +54,7 @@
         "description": "Painting with purple and pink watery background and two gray stitched canvases with horizontal seam facing out"
     },
     {
-        "id": "5",
+        "id": "7",
         "title": "untitled",
         "medium": "acrylic on raw canvas, stitched",
         "dimensions": "16\" x 20\"",
@@ -45,7 +63,7 @@
         "description": "Painting with multi-colored sploshy background and two salmon pink stitched canvases with horizontal seam facing out"
     },
     {
-        "id": "6",
+        "id": "8",
         "title": "untitled",
         "medium": "acrylic on raw canvas, stitched",
         "dimensions": "16\" x 20\"",
@@ -54,7 +72,7 @@
         "description": "Colorful abstract painting with two purple-stained canvas rectangles stacked and stitched on top"
     },
     {
-        "id": "7",
+        "id": "9",
         "title": "untitled",
         "medium": "acrylic on raw canvas, stitched",
         "dimensions": "16\" x 20\"",
@@ -63,7 +81,7 @@
         "description": "Dark blue and green abstract painting with two yellow and peach-stained canvas rectangles stacked and stitched on top"
     },
     {
-        "id": "8",
+        "id": "10",
         "title": "untitled",
         "medium": "acrylic on raw canvas, felt, stitched, woven",
         "dimensions": "10\" x 12\"",
@@ -72,7 +90,7 @@
         "description": "Woven canvas abstract painting in soft gradients with two small rectangles of red and bright pink"
     },
     {
-        "id": "9",
+        "id": "11",
         "title": "untitled",
         "medium": "acrylic on raw canvas, felt, stitched, woven",
         "dimensions": "10\" x 11\"",
@@ -81,7 +99,7 @@
         "description": "Woven canvas abstract painting in soft blue-violet gradients with two small rectangles of golden yellow and bright blue"
     },
     {
-        "id": "10",
+        "id": "12",
         "title": "untitled",
         "medium": "acrylic on raw canvas, felt, stitched, woven",
         "dimensions": "10\" x 12\"",
@@ -90,7 +108,7 @@
         "description": "Woven canvas abstract painting in blue and turquoise woven with bright pink and blue felt strips"
     },
     {
-        "id": "11",
+        "id": "13",
         "title": "untitled",
         "medium": "acrylic on raw canvas, stitched",
         "dimensions": "16\" x 20\"",
@@ -99,7 +117,7 @@
         "description": "Light, spotted green, pink, and blue abstract painting with arch-shaped canvas cutouts stitched on and a black strip of felt attached in a zig-zag pattern to the left side"
     },
     {
-        "id": "12",
+        "id": "14",
         "title": "untitled",
         "medium": "acrylic on raw canvas, felt, stitched, woven",
         "dimensions": "12\" x 16\"",
@@ -108,7 +126,7 @@
         "description": "Abstract painting on canvas with yellow and green gradient, strips of canvas and felt woven through, and cut-out sun and moon shapes in yellow and black stitched on top"
     },
     {
-        "id": "13",
+        "id": "15",
         "title": "untitled",
         "medium": "acrylic on raw canvas, felt, stitched, woven",
         "dimensions": "12\" x 16\"",
@@ -117,7 +135,7 @@
         "description": "A blue acrylic, abstract painting with a dark blue rectangle of felt centered and cutout blue and orange moon shapes stitched on top"
      },
      {
-        "id": "14",
+        "id": "16",
         "title": "untitled",
         "medium": "acrylic on raw canvas, stitched, woven",
         "dimensions": "20\" x 24\"",
