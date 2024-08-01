@@ -7,7 +7,7 @@ import {motion} from "framer-motion";
  const Home = () => {
     const cld = new Cloudinary({cloud: {cloudName: 'smith-studio'}});
   
-    const myImage = cld.image('allysonsmith/art/Purple-ltst-2024'); 
+    const myImage = cld.image('allysonsmith/art/DSCF3320_sutvwi'); 
     // Resize to 250 x 250 pixels using the 'fill' crop mode.
     myImage.resize(fill().width(800));
 
