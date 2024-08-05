@@ -290,15 +290,50 @@ a.insta-icon:hover {
 }
 
 /*  About  */
-.about-info {
+.about-wrapper {
   width: 85%;
   max-width: 1000px;
-  text-align: center;
-  margin-top: -80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
 }
 
-.about-info p {
-  line-height: 2;
+.about-statement {
+  width: 100%;
+  text-align: left;
+}
+
+.about-info {
+  width: 100%;
+  text-align: left;
+}
+
+.about-contact {
+  width: 100%;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.about-info p,
+.about-statement p,
+.about-contact p {
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+.bio-title {
+  text-decoration: underline;
+  text-transform: lowercase;
+}
+
+.section-break {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--main-font-color);
+  margin: 40px 0;
 }
 
 
