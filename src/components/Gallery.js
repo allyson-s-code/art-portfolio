@@ -41,12 +41,14 @@ const Gallery = () => {
         className: 'arrows'
       };
 
-      
+ const orderedData = data.toReversed();
+
+ console.log(orderedData);  
       
       return (
         <div className="slider-wrapper">
             <Slider {...settings}>
-                {data.map((d) => (
+                {orderedData.map((d) => (
                     <div className="slide" key={d.id}>
                         <div className="img-wrapper">
                             <img src={d.url} alt={d.description} className="img" />
