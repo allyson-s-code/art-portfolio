@@ -241,6 +241,24 @@
         "date": "2024",
         "url": "https://res.cloudinary.com/smith-studio/image/upload/v1734207575/allysonsmith/800w/Smith_Allyson_WrittenInTheStars_800w-brightest_cg56hs.jpg",
         "description": "Abstract painting with sun shape at center and radiating strng visible through sheer gradiated fabrics bordered by pink stretcher frames"
+    },
+    {
+        "id": "28",
+        "title": "Night Sun",
+        "medium": "acrylic on canvas, polyester, felt, pencil, thread",
+        "dimensions": "11\" x 9\"",
+        "date": "2024",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1736783307/allysonsmith/800w/NightSun_800w_ar2snk.jpg",
+        "description": "Light green abstract painting with three black felt semi circle sun shape stacked on top of a woven backdrop and layered sheer fabric"
+    },
+    {
+        "id": "29",
+        "title": "In Flight",
+        "medium": "acrylic on canvas, polyester, felt, thread",
+        "dimensions": "20\" x 16\"",
+        "date": "2024",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1736783459/allysonsmith/800w/InFlight_800w_hjjyso.jpg",
+        "description": "Pale yellow abstract painting with visible painted wooden frame, featuring layered woven canvas, black felt squares, and sheer yellow rectangle, with threaded line details"
     }
   
 ]
