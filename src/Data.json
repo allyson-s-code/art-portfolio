@@ -259,6 +259,24 @@
         "date": "2024",
         "url": "https://res.cloudinary.com/smith-studio/image/upload/v1736783459/allysonsmith/800w/InFlight_800w_hjjyso.jpg",
         "description": "Pale yellow abstract painting with visible painted wooden frame, featuring layered woven canvas, black felt squares, and sheer yellow rectangle, with threaded line details"
+    },
+    {
+        "id": "30",
+        "title": "Blue",
+        "medium": "acrylic on canvas, polyester, felt, thread, painted stretcher",
+        "dimensions": "20\" x 16\"",
+        "date": "2025",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1750622410/allysonsmith/800w/blue_800w_hhq3zh.jpg",
+        "description": "Sky blue translucent abstract painting in painted wooden frame, featuring translucent polyester, sewn canvas, blue netting, black felt half circles, and sheer pink gradient overlay, with neon green cord line details"
+    },
+    {
+        "id": "31",
+        "title": "M",
+        "medium": "acrylic on polyester, cording, thread, painted stretcher",
+        "dimensions": "12\" x 10\"",
+        "date": "2025",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1750623414/allysonsmith/800w/m-cropped_800w_mv7ciq.jpg",
+        "description": "Red-orange painted frame with orange cording grid background and soft transluscent gradient overlay with embroidered m in lower quadrant"
     }
   
 ]
