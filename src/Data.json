@@ -280,6 +280,15 @@
     },
     {
         "id": "32",
+        "title": "B",
+        "medium": "acrylic on polyester, cording, thread, painted stretcher",
+        "dimensions": "13\" x 12\"",
+        "date": "2025",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1758219268/B_800w_zaqoir.jpg",
+        "description": "A square abstract artwork with a translucent grid stretched over a frame. The composition has a vivid blue border, with a gradient of yellow to orange in the center. On the right side, a white fabric shape with curved edges and visible yellow stitching is attached."
+    },
+    {
+        "id": "33",
         "title": "S",
         "medium": "acrylic on polyester, cording, thread, painted stretcher",
         "dimensions": "12\" x 11\"",
@@ -288,7 +297,7 @@
         "description": "A square abstract artwork with a translucent grid stretched over a wooden frame. A small patch of blue mesh with an embroidered 'S' is attached in the lower right corner."
     },
     {
-        "id": "33",
+        "id": "34",
         "title": "I",
         "medium": "acrylic on polyester, cording, thread, painted stretcher",
         "dimensions": "12\" x 11\"",
@@ -297,7 +306,7 @@
         "description": "A square abstract artwork with a translucent grid stretched over a wooden frame. The surface shows washes of blue and pink, with darker blue stains scattered across the lower half."
     },
     {
-        "id": "34",
+        "id": "35",
         "title": "Thunder Moon",
         "medium": "acrylic on polyester, cording, thread, painted stretcher",
         "dimensions": "12\" x 11\"",
@@ -306,7 +315,7 @@
         "description": "A square abstract artwork with a translucent grid woven and stretched over a frame. The frame is dark green with a red cord grid, layered with blue and violet panels. Black circular shapes punctuate the surface, and small blue stains appear in the lower right."
     },
     {
-        "id": "35",
+        "id": "36",
         "title": "T",
         "medium": "acrylic on polyester, cording, thread, painted stretcher",
         "dimensions": "13\" x 12\"",
@@ -315,7 +324,7 @@
         "description": "A square abstract artwork with a translucent grid woven and stretched over a frame. The composition is dominated by shades of blue, with sections of soft pink and yellow. A bright pink circle appears in the left center, while black circular shapes are placed around the edges."
     },
     {
-        "id": "36",
+        "id": "37",
         "title": "untitled",
         "medium": "acrylic on polyester, cording, thread, painted stretcher",
         "dimensions": "20\" x 16\"",
