@@ -277,6 +277,50 @@
         "date": "2025",
         "url": "https://res.cloudinary.com/smith-studio/image/upload/v1750623414/allysonsmith/800w/m-cropped_800w_mv7ciq.jpg",
         "description": "Red-orange painted frame with orange cording grid background and soft transluscent gradient overlay with embroidered m in lower quadrant"
+    },
+    {
+        "id": "32",
+        "title": "S",
+        "medium": "acrylic on polyester, cording, thread, painted stretcher",
+        "dimensions": "12\" x 11\"",
+        "date": "2025",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1758216412/Eastport_S_800w_xplcb8.jpg",
+        "description": "A square abstract artwork with a translucent grid stretched over a wooden frame. A small patch of blue mesh with an embroidered 'S' is attached in the lower right corner."
+    },
+    {
+        "id": "33",
+        "title": "I",
+        "medium": "acrylic on polyester, cording, thread, painted stretcher",
+        "dimensions": "12\" x 11\"",
+        "date": "2025",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1758216412/Eastport_I_800w_akam9x.jpg",
+        "description": "A square abstract artwork with a translucent grid stretched over a wooden frame. The surface shows washes of blue and pink, with darker blue stains scattered across the lower half."
+    },
+    {
+        "id": "34",
+        "title": "Thunder Moon",
+        "medium": "acrylic on polyester, cording, thread, painted stretcher",
+        "dimensions": "12\" x 11\"",
+        "date": "2025",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1758216413/Eastport_ThunderMoon_800w_vhbpdr.jpg",
+        "description": "A square abstract artwork with a translucent grid woven and stretched over a frame. The frame is dark green with a red cord grid, layered with blue and violet panels. Black circular shapes punctuate the surface, and small blue stains appear in the lower right."
+    },
+    {
+        "id": "35",
+        "title": "T",
+        "medium": "acrylic on polyester, cording, thread, painted stretcher",
+        "dimensions": "13\" x 12\"",
+        "date": "2025",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1758216413/T_800w_iwn61c.jpg",
+        "description": "A square abstract artwork with a translucent grid woven and stretched over a frame. The composition is dominated by shades of blue, with sections of soft pink and yellow. A bright pink circle appears in the left center, while black circular shapes are placed around the edges."
+    },
+    {
+        "id": "36",
+        "title": "untitled",
+        "medium": "acrylic on polyester, cording, thread, painted stretcher",
+        "dimensions": "20\" x 16\"",
+        "date": "2025",
+        "url": "https://res.cloudinary.com/smith-studio/image/upload/v1758216413/Eastport-Untitled_800w_mvku4g.jpg",
+        "description": "A rectangular abstract artwork with a translucent grid stretched over a frame. The composition features layered shades of blue with hints of purple, scattered black circular shapes, and two textured fabric patches with dark woven surfaces on the left and upper right."
     }
-  
 ]
